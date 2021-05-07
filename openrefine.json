@@ -1,0 +1,536 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collision_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Parked Motor Vehicle",
+          "Parked motor vehicle",
+          "PARKED MOTOR VEHICLE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parked Motor Vehicle"
+      },
+      {
+        "from": [
+          "Sideswipe Same Direction",
+          "Sideswipe same direction",
+          "SIDESWIPE SAME DIRECTION"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sideswipe Same Direction"
+      },
+      {
+        "from": [
+          "Other Object",
+          "Other object",
+          "OTHER OBJECT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other Object"
+      },
+      {
+        "from": [
+          "Sideswipe Opposite Direction",
+          "SIDESWIPE OPPOSITE DIRECTION"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sideswipe Opposite Direction"
+      },
+      {
+        "from": [
+          "Rear end",
+          "Rear End"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rear end"
+      },
+      {
+        "from": [
+          "Fixed object",
+          "Fixed Object"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fixed object"
+      },
+      {
+        "from": [
+          "Head on",
+          "Head On"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Head on"
+      }
+    ],
+    "description": "Mass edit cells in column collision_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collision_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other non collision",
+          "Other Non-Collision"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other non collision"
+      }
+    ],
+    "description": "Mass edit cells in column collision_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collision_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sideswipe Same Direction",
+          "Sideswipe - same dir"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sideswipe Same Direction"
+      }
+    ],
+    "description": "Mass edit cells in column collision_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collision_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sideswipe Opposite Direction",
+          "Sideswipe opposite",
+          "Sideswipe - opp dir"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sideswipe Opposite Direction"
+      }
+    ],
+    "description": "Mass edit cells in column collision_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "weather",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Severe cross wind",
+          "Severe Cross Wind",
+          "SEVERE CROSS WIND"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Severe cross wind"
+      },
+      {
+        "from": [
+          "Sleet/Hail",
+          "SLEET/HAIL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sleet/Hail"
+      }
+    ],
+    "description": "Mass edit cells in column weather"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "weather",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fog/Smoke/Haze",
+          "FOG/SMOKE/HAZE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fog/Smoke/Haze"
+      }
+    ],
+    "description": "Mass edit cells in column weather"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "weather",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fog/Smoke/Haze",
+          "Fog / smoke / haze"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fog/Smoke/Haze"
+      },
+      {
+        "from": [
+          "Sleet/Hail",
+          "Sleet / hail"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sleet/Hail"
+      }
+    ],
+    "description": "Mass edit cells in column weather"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "light",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Darkness, lighted road",
+          "Darkness, Lighted Road"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Darkness, lighted road"
+      },
+      {
+        "from": [
+          "Unknown",
+          "UNKNOWN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      }
+    ],
+    "description": "Mass edit cells in column light"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "road_surface",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Snow or Slush",
+          "Snow or slush"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Snow or Slush"
+      },
+      {
+        "from": [
+          "Ice",
+          "ICE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ice"
+      },
+      {
+        "from": [
+          "Sand, mud, dirt",
+          "Sand, Mud, Dirt"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sand, mud, dirt"
+      }
+    ],
+    "description": "Mass edit cells in column road_surface"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "traffic_control",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other Warning Sign",
+          "Other warning sign"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other Warning Sign"
+      },
+      {
+        "from": [
+          "RR Crossing Gate",
+          "RR crossing gate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RR Crossing Gate"
+      },
+      {
+        "from": [
+          "OTHER REGUALTORY SIGN",
+          "Other Regualtory Sign"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER REGUALTORY SIGN"
+      },
+      {
+        "from": [
+          "School Zone",
+          "School zone"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "School Zone"
+      },
+      {
+        "from": [
+          "No Passing",
+          "No passing"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "No Passing"
+      },
+      {
+        "from": [
+          "Traffic Signal",
+          "Traffic signal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Traffic Signal"
+      },
+      {
+        "from": [
+          "Other RR Crossing",
+          "Other RR crossing"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other RR Crossing"
+      }
+    ],
+    "description": "Mass edit cells in column traffic_control"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "traffic_control",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Stop Sign/Flasher",
+          "Stop sign / flasher"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Stop Sign/Flasher"
+      },
+      {
+        "from": [
+          "Police/Flagman",
+          "Police / flagman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Police/Flagman"
+      }
+    ],
+    "description": "Mass edit cells in column traffic_control"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "traffic_control",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Other Regualtory Sig",
+          "OTHER REGUALTORY SIGN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other Regualtory Sig"
+      }
+    ],
+    "description": "Mass edit cells in column traffic_control"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pesotum",
+          "PESOTUM"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pesotum"
+      },
+      {
+        "from": [
+          "Thomasboro",
+          "THOMASBORO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thomasboro"
+      },
+      {
+        "from": [
+          "St. Joseph",
+          "St Joseph"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. Joseph"
+      },
+      {
+        "from": [
+          "Philo",
+          "PHILO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Philo"
+      },
+      {
+        "from": [
+          "Savoy",
+          "SAVOY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Savoy"
+      },
+      {
+        "from": [
+          "Ogden",
+          "OGDEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ogden"
+      },
+      {
+        "from": [
+          "Tolono",
+          "TOLONO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tolono"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "crash_severity",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PD"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Property Damage"
+      }
+    ],
+    "description": "Mass edit cells in column crash_severity"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "road_surface",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Unkown"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Unknown"
+      }
+    ],
+    "description": "Mass edit cells in column road_surface"
+  }
+]
